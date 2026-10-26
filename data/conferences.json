@@ -1,16 +1,16 @@
 {
   "meta": {
     "version": "0.2.0",
-    "last_updated": "2026-10-16T05:46:52Z",
+    "last_updated": "2026-10-26T08:54:51Z",
     "description": "AI top conference data — venues, deadlines, and dates",
     "data_source": "manually curated",
-    "last_ai_run": "2026-10-16T05:46:52Z",
+    "last_ai_run": "2026-10-26T08:54:51Z",
     "ai_run_summary": {
       "archived": 0,
       "created": 0,
-      "queried": 10,
-      "skipped": 8,
-      "updated": 5
+      "queried": 5,
+      "skipped": 10,
+      "updated": 2
     }
   },
   "conferences": [
@@ -1510,12 +1510,24 @@
           "continent": "North America",
           "venue": "Moscone Center",
           "url": "https://iclr.cc",
-          "abstract_ddl": [],
-          "paper_ddl": [],
-          "notification_date": null,
+          "abstract_ddl": [
+            {
+              "date": "2026-09-18",
+              "timezone": "Etc/GMT+12",
+              "note": "Anywhere on Earth"
+            }
+          ],
+          "paper_ddl": [
+            {
+              "date": "2026-09-25",
+              "timezone": "Etc/GMT+12",
+              "note": "Anywhere on Earth"
+            }
+          ],
+          "notification_date": "2026-12-16",
           "camera_ready": null,
-          "start_date": null,
-          "end_date": null
+          "start_date": "2027-04-26",
+          "end_date": "2027-04-30"
         }
       ]
     },
@@ -2339,17 +2351,29 @@
         {
           "year": 2027,
           "type": "upcoming",
-          "city": null,
-          "country": null,
-          "continent": null,
-          "venue": null,
-          "url": null,
-          "abstract_ddl": [],
-          "paper_ddl": [],
-          "notification_date": null,
+          "city": "San Jose",
+          "country": "United States",
+          "continent": "North America",
+          "venue": "San Jose McEnery Convention Center",
+          "url": "https://kdd2027.kdd.org",
+          "abstract_ddl": [
+            {
+              "date": "2026-07-19",
+              "timezone": "Etc/GMT+12",
+              "note": "KDD 2027 First Cycle; Anywhere on Earth (AoE)"
+            }
+          ],
+          "paper_ddl": [
+            {
+              "date": "2026-07-26",
+              "timezone": "Etc/GMT+12",
+              "note": "KDD 2027 First Cycle; Anywhere on Earth (AoE)"
+            }
+          ],
+          "notification_date": "2026-11-14",
           "camera_ready": null,
-          "start_date": null,
-          "end_date": null
+          "start_date": "2027-08-01",
+          "end_date": "2027-08-05"
         }
       ]
     }
