@@ -1,16 +1,16 @@
 {
   "meta": {
     "version": "0.2.0",
-    "last_updated": "2026-10-16T05:46:52Z",
+    "last_updated": "2026-11-09T11:30:46Z",
     "description": "AI top conference data — venues, deadlines, and dates",
     "data_source": "manually curated",
-    "last_ai_run": "2026-10-16T05:46:52Z",
+    "last_ai_run": "2026-11-09T11:30:46Z",
     "ai_run_summary": {
-      "archived": 0,
-      "created": 0,
-      "queried": 10,
+      "archived": 1,
+      "created": 1,
+      "queried": 6,
       "skipped": 8,
-      "updated": 5
+      "updated": 2
     }
   },
   "conferences": [
@@ -980,7 +980,7 @@
         },
         {
           "year": 2026,
-          "type": "upcoming",
+          "type": "history",
           "city": "Budapest",
           "country": "Hungary",
           "continent": "Europe",
@@ -996,6 +996,21 @@
           "camera_ready": "2026-09-20",
           "start_date": "2026-10-24",
           "end_date": "2026-10-29"
+        },
+        {
+          "year": 2027,
+          "type": "upcoming",
+          "city": null,
+          "country": null,
+          "continent": null,
+          "venue": null,
+          "url": null,
+          "abstract_ddl": [],
+          "paper_ddl": [],
+          "notification_date": null,
+          "camera_ready": null,
+          "start_date": null,
+          "end_date": null
         }
       ]
     },
@@ -1303,17 +1318,17 @@
         {
           "year": 2027,
           "type": "upcoming",
-          "city": null,
-          "country": null,
-          "continent": null,
-          "venue": null,
+          "city": "Rio de Janeiro",
+          "country": "Brazil",
+          "continent": "South America",
+          "venue": "Riocentro",
           "url": "https://icml.cc",
           "abstract_ddl": [],
           "paper_ddl": [],
           "notification_date": null,
           "camera_ready": null,
-          "start_date": null,
-          "end_date": null
+          "start_date": "2027-07-31",
+          "end_date": "2027-08-06"
         }
       ]
     },
@@ -2339,17 +2354,29 @@
         {
           "year": 2027,
           "type": "upcoming",
-          "city": null,
-          "country": null,
-          "continent": null,
-          "venue": null,
-          "url": null,
-          "abstract_ddl": [],
-          "paper_ddl": [],
-          "notification_date": null,
+          "city": "San Jose",
+          "country": "United States",
+          "continent": "North America",
+          "venue": "San Jose McEnery Convention Center",
+          "url": "https://kdd2027.kdd.org",
+          "abstract_ddl": [
+            {
+              "date": "2026-07-19",
+              "timezone": "Etc/GMT+12",
+              "note": "KDD 2027 First Cycle; Anywhere on Earth (AoE)"
+            }
+          ],
+          "paper_ddl": [
+            {
+              "date": "2026-07-26",
+              "timezone": "Etc/GMT+12",
+              "note": "KDD 2027 First Cycle; Anywhere on Earth (AoE)"
+            }
+          ],
+          "notification_date": "2026-11-14",
           "camera_ready": null,
-          "start_date": null,
-          "end_date": null
+          "start_date": "2027-08-01",
+          "end_date": "2027-08-05"
         }
       ]
     }
