@@ -1,10 +1,10 @@
 {
   "meta": {
     "version": "0.2.0",
-    "last_updated": "2026-11-09T11:30:46Z",
+    "last_updated": "2026-11-16T11:17:20Z",
     "description": "AI top conference data — venues, deadlines, and dates",
     "data_source": "manually curated",
-    "last_ai_run": "2026-11-09T11:30:46Z",
+    "last_ai_run": "2026-11-16T11:17:20Z",
     "ai_run_summary": {
       "archived": 1,
       "created": 1,
@@ -1323,9 +1323,21 @@
           "continent": "South America",
           "venue": "Riocentro",
           "url": "https://icml.cc",
-          "abstract_ddl": [],
-          "paper_ddl": [],
-          "notification_date": null,
+          "abstract_ddl": [
+            {
+              "date": "2027-01-14",
+              "timezone": "Etc/GMT+12",
+              "note": "Anywhere on Earth"
+            }
+          ],
+          "paper_ddl": [
+            {
+              "date": "2027-01-22",
+              "timezone": "Etc/GMT+12",
+              "note": "Anywhere on Earth"
+            }
+          ],
+          "notification_date": "2027-05-03",
           "camera_ready": null,
           "start_date": "2027-07-31",
           "end_date": "2027-08-06"
@@ -1909,7 +1921,7 @@
         },
         {
           "year": 2026,
-          "type": "upcoming",
+          "type": "history",
           "city": "Rio de Janeiro",
           "country": "Brazil",
           "continent": "South America",
@@ -1932,6 +1944,21 @@
           "camera_ready": "2026-08-06",
           "start_date": "2026-11-10",
           "end_date": "2026-11-14"
+        },
+        {
+          "year": 2027,
+          "type": "upcoming",
+          "city": "Hong Kong",
+          "country": "China",
+          "continent": "Asia",
+          "venue": null,
+          "url": null,
+          "abstract_ddl": [],
+          "paper_ddl": [],
+          "notification_date": null,
+          "camera_ready": null,
+          "start_date": null,
+          "end_date": null
         }
       ]
     },
